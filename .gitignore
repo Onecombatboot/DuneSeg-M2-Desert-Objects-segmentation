@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and weights
+*.pth
+*.pt
+*.pwf
+outputs/
+mrsseg_outputs1/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Evaluation results
+visual_comparisons/
+*.txt
+*.png
+!Metrics.png
