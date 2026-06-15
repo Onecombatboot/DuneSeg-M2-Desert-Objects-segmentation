@@ -1,5 +1,5 @@
 import os
-# MUST BE SET BEFORE PYTORCH IS IMPORTED to prevent memory fragmentation on 6GB VRAM
+# Optional: Optimization for memory management
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
 import torch
